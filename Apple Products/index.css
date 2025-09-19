@@ -1,0 +1,49 @@
+ img{
+        width:300px ;
+        height:300px ;
+        border: 3px rgb(94, 74, 74) solid;
+        border-radius: 30px;
+     }
+     .products{
+      
+      transition: all 0.5s ease-in-out;
+      
+      background-color: white;
+      width: 350px;
+      height: 450px;
+      border: 3px rgb(51, 135, 218) solid;
+      border-radius: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: black;
+     }
+     .apple{
+      background-color:white;
+      display: flex;
+      justify-content: space-evenly;
+     }
+     header{
+      font-size: 50px;
+      background-color: rgb(51, 135, 218);
+      color: white;
+      text-align: center;
+     }
+     footer{
+      font-size: 40px;
+      background-color: rgb(51, 135, 218);
+      color: white;
+      text-align: center;
+     }
+     .apple:hover .products{
+      transform: scale(0.8);
+     }
+     .apple .products:hover{
+      transform: scale(0.9) rotate(10deg);
+      background-color: rgb(103, 166, 228);
+      border: 3px black solid;
+      border-radius: 30px;
+     }
+     h1{
+      font-size: large;
+     }
